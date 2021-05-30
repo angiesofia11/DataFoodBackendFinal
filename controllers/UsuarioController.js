@@ -2,7 +2,6 @@ const models = require('../models');
 var bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const token = require('../services/token');
-const token = require('../services/token');
 
 /*exports.login = async(req, res , next)=>{
     console.log(req.body);
